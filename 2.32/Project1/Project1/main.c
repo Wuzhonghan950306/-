@@ -18,7 +18,9 @@ int main(void)
 
 	printf("\n");
 
-	printf("BMI 數值:\n");
+	printf("BMI 數值:");
+	printf("%f\n", BMI_result);
+
 
 	// 判斷 BMI 狀況
 	if (BMI_result < 18.5)
